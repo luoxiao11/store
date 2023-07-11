@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql:///users
+    username: root
+    password: 12345678
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 15MB
+mybatis:
+  mapper-locations: classpath:com/makongit/store/mapper/*.xml
+
+user:
+  address:
+    max-count: 20
+
